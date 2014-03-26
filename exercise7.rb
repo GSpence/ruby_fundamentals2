@@ -14,7 +14,21 @@ students[:cohort4] = 43
 
 
 #Step 3
-students.each do |key, value|
+students.each do |key , value|
 	puts "#{key}"
 	end
+
+#Step 4
+students.each do |key, value|
+	value += value * 1.05
+	puts "#{key}: #{value.to_i} students"
+	end
+
+
+
+
+	
+
+
+
 
