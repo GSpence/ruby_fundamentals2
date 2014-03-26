@@ -29,10 +29,11 @@ grocery_list.each {|x| puts "* #{x}"}
 		puts grocery_list[1]
 		puts "\n"
 
-		puts grocery_list.sort
-		puts "\n"
+		a = grocery_list.sort
+		a.each {|x| puts "* #{x}"}
 		
-
+		
+ 
 
 
 
