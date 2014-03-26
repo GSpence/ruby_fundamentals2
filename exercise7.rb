@@ -24,6 +24,18 @@ students.each do |key, value|
 	puts "#{key}: #{value.to_i} students"
 	end
 
+#Step 5
+students.delete(:cohort2)
+students.each do |key, value|
+	puts "#{key}: #{value} students"
+	end
+
+
+
+
+
+
+
 
 
 
