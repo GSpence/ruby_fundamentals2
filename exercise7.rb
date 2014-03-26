@@ -30,6 +30,15 @@ students.each do |key, value|
 	puts "#{key}: #{value} students"
 	end
 
+#Bonus
+
+x = 0
+students.each do |key, value|
+	x += value
+	end
+puts x
+
+
 
 
 
