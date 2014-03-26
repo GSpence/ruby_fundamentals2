@@ -17,4 +17,17 @@ grocery_list.each {|x| puts "* #{x}"}
 
 	puts "You have #{grocery_list.length} items in your list."
 
+	puts "Search item: "
+	z = gets.chomp
+	grocery_list.include?(z)
+		if true
+			puts "You need to pick up #{z}"
+		else
+			puts "You don't need to pick up #{z} today"
+		end
+
+		
+
+
+
 
