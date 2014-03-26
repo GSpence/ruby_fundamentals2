@@ -26,12 +26,18 @@ grocery_list.each {|x| puts "* #{x}"}
 			puts "You don't need to pick up #{z} today"
 		end
 
-		puts grocery_list[1]
-		puts "\n"
+	puts grocery_list[1]
+	puts "\n"
 
-		a = grocery_list.sort
-		a.each {|x| puts "* #{x}"}
+	a = grocery_list.sort
+	a.each {|x| puts "* #{x}"}
+
+	grocery_list.delete("briyani")
+	a = grocery_list.sort
+	a.each {|x| puts "* #{x}"}
+	
 		
+
 		
  
 
