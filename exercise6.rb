@@ -26,6 +26,8 @@ grocery_list.each {|x| puts "* #{x}"}
 			puts "You don't need to pick up #{z} today"
 		end
 
+		puts grocery_list[1]
+		puts "\n"
 		
 
 
