@@ -7,4 +7,14 @@ students = {
 # Step 1
 students.each do |key, value|
 	puts "#{key}: #{value} students"
-end
+	end
+
+#Step 2
+students[:cohort4] = 43
+
+
+#Step 3
+students.each do |key, value|
+	puts "#{key}"
+	end
+
